@@ -1,0 +1,86 @@
+/* newtab.css — full-page new tab layout */
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eef2ff 0%, #f0fdf4 100%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1a1a2e;
+}
+
+#fp-newtab-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ─── Header ────────────────────────────────────────────────────────────── */
+.fp-nt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 40px;
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #e0e7ff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.fp-nt-brand {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #3730a3;
+  letter-spacing: -0.01em;
+}
+
+.fp-nt-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.fp-nt-nav a {
+  color: #6366f1;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.fp-nt-nav a:hover {
+  color: #4f46e5;
+  text-decoration: underline;
+}
+
+/* ─── Main content ──────────────────────────────────────────────────────── */
+#fp-newtab-task {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+#fp-newtab-task .fp-task-card {
+  width: 100%;
+  max-width: 760px;
+}
+
+/* ─── Footer ────────────────────────────────────────────────────────────── */
+.fp-nt-footer {
+  text-align: center;
+  padding: 14px;
+  font-size: 0.78rem;
+  color: #9ca3af;
+  border-top: 1px solid #e0e7ff;
+}
+
+.fp-loading {
+  color: #6b7280;
+  text-align: center;
+  padding: 60px 24px;
+  font-size: 1rem;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>French Practice — Options</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f6ff;
+      color: #1a1a2e;
+      min-height: 100vh;
+    }
+    header {
+      background: #4f46e5;
+      color: #fff;
+      padding: 18px 40px;
+    }
+    header h1 { margin: 0; font-size: 1.2rem; font-weight: 700; }
+
+    main {
+      max-width: 640px;
+      margin: 40px auto;
+      padding: 0 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .fp-opt-section {
+      background: #fff;
+      border: 1px solid #e0e7ff;
+      border-radius: 12px;
+      padding: 24px 28px;
+    }
+    .fp-opt-section h2 {
+      margin: 0 0 6px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #1e1b4b;
+    }
+    .fp-opt-section p {
+      margin: 0 0 16px;
+      font-size: 0.88rem;
+      color: #6b7280;
+      line-height: 1.5;
+    }
+
+    label {
+      display: block;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: #374151;
+      margin-bottom: 6px;
+    }
+
+    .fp-opt-key-row { display: flex; gap: 8px; }
+
+    input[type="password"],
+    input[type="text"] {
+      flex: 1;
+      padding: 9px 12px;
+      border: 1.5px solid #c7d2fe;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-family: monospace;
+    }
+    input:focus { outline: none; border-color: #6366f1; }
+
+    .fp-btn {
+      padding: 9px 18px;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .fp-btn-primary  { background: #6366f1; color: #fff; }
+    .fp-btn-primary:hover { background: #4f46e5; }
+    .fp-btn-secondary { background: #eef2ff; color: #4338ca; border: 1px solid #c7d2fe; }
+    .fp-btn-secondary:hover { background: #e0e7ff; }
+    .fp-btn-danger  { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+    .fp-btn-danger:hover { background: #fee2e2; }
+
+    .fp-opt-status { margin-top: 10px; font-size: 0.85rem; min-height: 20px; }
+    .fp-opt-status.ok    { color: #15803d; }
+    .fp-opt-status.error { color: #dc2626; }
+    .fp-opt-status.info  { color: #6b7280; }
+
+    .fp-opt-key-masked {
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: #6366f1;
+      margin-top: 6px;
+    }
+
+    .fp-action-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🇫🇷 French Practice — Options</h1>
+  </header>
+  <main>
+
+    <div class="fp-opt-section">
+      <h2>Anthropic API Key</h2>
+      <p>
+        Your key is stored locally in Chrome and sent only to
+        <code>api.anthropic.com</code>.
+        Get yours at <a href="https://console.anthropic.com" target="_blank">console.anthropic.com</a>.
+      </p>
+      <label for="input-api-key">API Key</label>
+      <div class="fp-opt-key-row">
+        <input type="password" id="input-api-key" placeholder="sk-ant-api03-…" autocomplete="off">
+        <button class="fp-btn fp-btn-primary"   id="btn-save-key">Save</button>
+        <button class="fp-btn fp-btn-secondary" id="btn-test-key">Test</button>
+      </div>
+      <div class="fp-opt-key-masked" id="key-masked"></div>
+      <div class="fp-opt-status"     id="key-status"></div>
+    </div>
+
+    <div class="fp-opt-section">
+      <h2>Testing</h2>
+      <p>Reset today's completion so you can test the blocking flow again.</p>
+      <div class="fp-action-row">
+        <button class="fp-btn fp-btn-secondary" id="btn-reset-today">Reset Today's Task</button>
+      </div>
+      <div class="fp-opt-status" id="reset-status"></div>
+    </div>
+
+    <div class="fp-opt-section">
+      <h2>History</h2>
+      <p>Export all history as JSON, or clear everything.</p>
+      <div class="fp-action-row">
+        <button class="fp-btn fp-btn-secondary" id="btn-export-hist">Export History JSON</button>
+        <button class="fp-btn fp-btn-danger"    id="btn-clear-hist">Clear All History</button>
+      </div>
+      <div class="fp-opt-status" id="hist-status"></div>
+    </div>
+
+  </main>
+
+  <script type="module" src="options.js"></script>
+</body>
+</html>

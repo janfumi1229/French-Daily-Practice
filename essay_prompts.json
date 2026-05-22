@@ -1,0 +1,122 @@
+[
+  {
+    "id": "essay_001",
+    "title": "Describe your weekend",
+    "context": "A French friend wants to know how you usually spend your weekends.",
+    "instructions": "Write a short text in French (at least 60 words) describing what you typically do on weekends, who you spend time with, and what you enjoy most."
+  },
+  {
+    "id": "essay_002",
+    "title": "Your favorite meal",
+    "context": "You are participating in an online French food forum.",
+    "instructions": "Write a post in French (at least 60 words) describing your favorite meal. Explain what the dish is, when you usually eat it, who makes it, and why you love it."
+  },
+  {
+    "id": "essay_003",
+    "title": "A memorable trip",
+    "context": "Your French pen-pal has asked you about a trip you enjoyed.",
+    "instructions": "Write a short text in French (at least 60 words) about a trip you have taken. Describe where you went, what you did, what you saw, and what made it memorable."
+  },
+  {
+    "id": "essay_004",
+    "title": "Technology in daily life",
+    "context": "Your French class is discussing how technology has changed everyday routines.",
+    "instructions": "Write a short text in French (at least 60 words) about how you use technology every day. Mention at least two devices or apps and explain how they help you or how you depend on them."
+  },
+  {
+    "id": "essay_005",
+    "title": "Protecting the environment",
+    "context": "Your school newspaper is asking students for short opinion pieces on the environment.",
+    "instructions": "Write a short opinion piece in French (at least 60 words) about one thing individuals can do to help protect the environment. Give reasons and examples."
+  },
+  {
+    "id": "essay_006",
+    "title": "My ideal job",
+    "context": "A French career counselor has asked students to write about their dream job.",
+    "instructions": "Write a short text in French (at least 60 words) describing your ideal job. Explain what the job is, what skills it requires, and why it appeals to you."
+  },
+  {
+    "id": "essay_007",
+    "title": "Living in the city vs. the countryside",
+    "context": "You are taking part in a debate in your French class.",
+    "instructions": "Write a short argumentative text in French (at least 60 words) giving your opinion on whether it is better to live in the city or the countryside. Support your view with at least two reasons."
+  },
+  {
+    "id": "essay_008",
+    "title": "Your hobbies",
+    "context": "You are filling in a profile for a French-language exchange website.",
+    "instructions": "Write a short text in French (at least 60 words) about your hobbies. Describe at least two hobbies, explain how often you do them, and say what you like about them."
+  },
+  {
+    "id": "essay_009",
+    "title": "A person who has inspired you",
+    "context": "Your French teacher has asked the class to write about someone who has influenced their life.",
+    "instructions": "Write a short text in French (at least 60 words) about a person — real or fictional — who has inspired you. Explain who they are, what they did or do, and how they have influenced you."
+  },
+  {
+    "id": "essay_010",
+    "title": "Social media: good or bad?",
+    "context": "A French student magazine is running an opinion column on social media.",
+    "instructions": "Write a short opinion piece in French (at least 60 words) about the advantages and disadvantages of social media. Give your overall opinion at the end."
+  },
+  {
+    "id": "essay_011",
+    "title": "Describe your home",
+    "context": "A French exchange student will be staying with your family and wants to know about your home.",
+    "instructions": "Write a short text in French (at least 60 words) describing your home. Include the type of home, where it is located, the rooms, and what you like most about it."
+  },
+  {
+    "id": "essay_012",
+    "title": "School or work routine",
+    "context": "You are writing a diary entry for a French-language journal project.",
+    "instructions": "Write a diary entry in French (at least 60 words) describing a typical day at school or work. Include what time things happen, what you do, and how you feel about your routine."
+  },
+  {
+    "id": "essay_013",
+    "title": "French cuisine",
+    "context": "You are writing a short article for a travel blog about France.",
+    "instructions": "Write a short article in French (at least 60 words) about French cuisine. Mention at least two dishes or food traditions, and explain what makes French food special to you."
+  },
+  {
+    "id": "essay_014",
+    "title": "My family",
+    "context": "You are writing a presentation about your family for a French class.",
+    "instructions": "Write a short text in French (at least 60 words) introducing your family. Describe family members, what they do, your relationships with them, and one tradition or activity you share."
+  },
+  {
+    "id": "essay_015",
+    "title": "Learning a foreign language",
+    "context": "A French magazine for language learners has asked readers to share their experiences.",
+    "instructions": "Write a short text in French (at least 60 words) about your experience of learning a language. Explain why you started, what is difficult, what strategies help you, and why it is worth the effort."
+  },
+  {
+    "id": "essay_016",
+    "title": "A film or book you recommend",
+    "context": "You are posting a review on a French-language cultural website.",
+    "instructions": "Write a short review in French (at least 60 words) recommending a film or book. Briefly describe the plot, explain what you liked most, and say who you would recommend it to."
+  },
+  {
+    "id": "essay_017",
+    "title": "Public transport vs. driving",
+    "context": "Your French class is debating sustainable transport choices.",
+    "instructions": "Write a short opinion text in French (at least 60 words) comparing public transport and driving. Give arguments for and against each option and share your personal preference."
+  },
+  {
+    "id": "essay_018",
+    "title": "Healthy lifestyle",
+    "context": "You are contributing to a French health and wellness newsletter.",
+    "instructions": "Write a short text in French (at least 60 words) about what a healthy lifestyle means to you. Discuss diet, exercise, sleep, or mental health, and give practical tips."
+  },
+  {
+    "id": "essay_019",
+    "title": "Future plans",
+    "context": "A French university admissions form asks you to describe your plans for the next five years.",
+    "instructions": "Write a short text in French (at least 60 words) about your plans for the next five years. Mention studies, work, travel, or personal goals, and explain your motivations."
+  },
+  {
+    "id": "essay_020",
+    "title": "An important celebration or festival",
+    "context": "You are describing a celebration from your culture to a French friend who is curious about your traditions.",
+    "instructions": "Write a short text in French (at least 60 words) about a celebration or festival that is important to you. Describe when it takes place, what people do, what food is eaten, and why it matters to you."
+  }
+]

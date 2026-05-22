@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "French Daily Practice",
+  "version": "1.0.0",
+  "description": "Daily DELF A2-B1 French writing tasks that block your browser until complete.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://api.anthropic.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["overlay.js"],
+      "css": ["overlay.css"],
+      "run_at": "document_idle",
+      "all_frames": false,
+      "type": "module"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "French Practice"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  }
+}

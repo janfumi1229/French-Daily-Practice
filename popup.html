@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>French Practice</title>
+  <link rel="stylesheet" href="lib/task.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="fp-popup-root">
+    <div class="fp-popup-toolbar">
+      <span class="fp-popup-brand">🇫🇷 French Practice</span>
+      <div class="fp-popup-links">
+        <a href="history.html" target="_blank" title="View history">History</a>
+        <a href="options.html" target="_blank" title="Settings">Options</a>
+      </div>
+    </div>
+    <div id="fp-popup-task">
+      <div class="fp-loading">Loading today's task…</div>
+    </div>
+  </div>
+  <!-- type="module" gives us ES import support in extension pages -->
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

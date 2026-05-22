@@ -1,0 +1,222 @@
+[
+  {
+    "id": "trans_001",
+    "grammarFocus": "Passé composé with avoir and être",
+    "sentences": [
+      { "source": "I went to the market yesterday morning." },
+      { "source": "She has already finished her homework." },
+      { "source": "We arrived at the station at noon." },
+      { "source": "They ate dinner at a restaurant last night." },
+      { "source": "He fell asleep on the sofa after the film." }
+    ]
+  },
+  {
+    "id": "trans_002",
+    "grammarFocus": "Imparfait (ongoing past actions and descriptions)",
+    "sentences": [
+      { "source": "When I was young, I used to play in the garden every day." },
+      { "source": "It was raining and the streets were empty." },
+      { "source": "She was reading a novel while he was cooking dinner." },
+      { "source": "They always drank coffee after lunch when they worked together." },
+      { "source": "The old house had a big oak tree in the courtyard." }
+    ]
+  },
+  {
+    "id": "trans_003",
+    "grammarFocus": "Passé composé vs. imparfait (contrast)",
+    "sentences": [
+      { "source": "I was walking home when I suddenly heard a strange noise." },
+      { "source": "While she was sleeping, her phone rang twice." },
+      { "source": "He used to cycle to work, but yesterday he took the bus." },
+      { "source": "We were eating when the power went out." },
+      { "source": "The children were playing outside when it started to snow." }
+    ]
+  },
+  {
+    "id": "trans_004",
+    "grammarFocus": "Futur simple",
+    "sentences": [
+      { "source": "Tomorrow I will wake up early and go for a run." },
+      { "source": "Next summer, she will travel to Spain with her family." },
+      { "source": "They will finish the project by Friday." },
+      { "source": "Will you come to the party on Saturday?" },
+      { "source": "If you study hard, you will pass the exam." }
+    ]
+  },
+  {
+    "id": "trans_005",
+    "grammarFocus": "Conditionnel présent (polite requests and hypotheticals)",
+    "sentences": [
+      { "source": "Could you please open the window? It is very hot in here." },
+      { "source": "I would like a table for two, please." },
+      { "source": "If I had more time, I would learn to paint." },
+      { "source": "She would be happy if you called her more often." },
+      { "source": "We would travel around the world if we could." }
+    ]
+  },
+  {
+    "id": "trans_006",
+    "grammarFocus": "Subjonctif présent after expressions of necessity and emotion",
+    "sentences": [
+      { "source": "It is important that you arrive on time." },
+      { "source": "I am glad that she can come to the party." },
+      { "source": "The teacher wants us to be quiet during the test." },
+      { "source": "It is a shame that he does not speak French." },
+      { "source": "We need you to finish this report before Monday." }
+    ]
+  },
+  {
+    "id": "trans_007",
+    "grammarFocus": "Pronoms relatifs: qui and que",
+    "sentences": [
+      { "source": "The woman who lives next door is a doctor." },
+      { "source": "The book that I am reading is very interesting." },
+      { "source": "He is the colleague who helped me with my presentation." },
+      { "source": "The film that we watched last night was funny." },
+      { "source": "She has a friend who speaks five languages." }
+    ]
+  },
+  {
+    "id": "trans_008",
+    "grammarFocus": "Pronom relatif: dont",
+    "sentences": [
+      { "source": "This is the film I told you about." },
+      { "source": "She is the student whose work impressed everyone." },
+      { "source": "He bought the car he had been dreaming of." },
+      { "source": "That is the restaurant whose menu changes every week." },
+      { "source": "I remember the day we met, whose memory still makes me smile." }
+    ]
+  },
+  {
+    "id": "trans_009",
+    "grammarFocus": "Pronom relatif: où (place and time)",
+    "sentences": [
+      { "source": "The city where I grew up is on the coast." },
+      { "source": "I remember the year when everything changed." },
+      { "source": "Show me the office where you work every day." },
+      { "source": "The moment when she walked in, the room fell silent." },
+      { "source": "He returned to the village where his grandparents had lived." }
+    ]
+  },
+  {
+    "id": "trans_010",
+    "grammarFocus": "Pronoms COD (direct object pronouns)",
+    "sentences": [
+      { "source": "I see the cat. — I see it." },
+      { "source": "She loves French films. — She loves them." },
+      { "source": "He will call his mother tonight. — He will call her tonight." },
+      { "source": "Do you know this song? — Yes, I know it." },
+      { "source": "They have invited us to their wedding." }
+    ]
+  },
+  {
+    "id": "trans_011",
+    "grammarFocus": "Pronoms COI (indirect object pronouns)",
+    "sentences": [
+      { "source": "I sent a postcard to my grandmother. — I sent her a postcard." },
+      { "source": "He talks to his friends every evening. — He talks to them every evening." },
+      { "source": "She gave the keys to the manager. — She gave him the keys." },
+      { "source": "Can you explain the rules to us, please?" },
+      { "source": "I will write to you as soon as I arrive." }
+    ]
+  },
+  {
+    "id": "trans_012",
+    "grammarFocus": "Ne… que (restriction: only)",
+    "sentences": [
+      { "source": "I only have ten euros left." },
+      { "source": "She only eats vegetables and fruit." },
+      { "source": "He spoke only a few words and then left." },
+      { "source": "There is only one train per day to that village." },
+      { "source": "We only see each other on weekends." }
+    ]
+  },
+  {
+    "id": "trans_013",
+    "grammarFocus": "Gérondif (en + present participle)",
+    "sentences": [
+      { "source": "She listens to podcasts while commuting to work." },
+      { "source": "You can improve your French by speaking every day." },
+      { "source": "He answered the phone while eating his lunch." },
+      { "source": "By working together, we finished the task faster." },
+      { "source": "She hurt her ankle while playing tennis." }
+    ]
+  },
+  {
+    "id": "trans_014",
+    "grammarFocus": "Comparatifs et superlatifs",
+    "sentences": [
+      { "source": "This café is more expensive than the one near the station." },
+      { "source": "She speaks French better than her brother." },
+      { "source": "It is the most beautiful painting I have ever seen." },
+      { "source": "The train is faster than the bus, but the bus is cheaper." },
+      { "source": "He is the least experienced member of the team." }
+    ]
+  },
+  {
+    "id": "trans_015",
+    "grammarFocus": "Si + imparfait + conditionnel (hypothetical present/future)",
+    "sentences": [
+      { "source": "If I spoke French perfectly, I would apply for that job in Paris." },
+      { "source": "If we had a car, we would visit them more often." },
+      { "source": "What would you do if you won the lottery?" },
+      { "source": "If she studied more, she would get better grades." },
+      { "source": "If it were not raining, we would eat on the terrace." }
+    ]
+  },
+  {
+    "id": "trans_016",
+    "grammarFocus": "Verbes pronominaux (reflexive verbs)",
+    "sentences": [
+      { "source": "I wake up at seven and get dressed quickly." },
+      { "source": "They met at university and fell in love." },
+      { "source": "She is interested in contemporary art." },
+      { "source": "We are looking forward to the holidays." },
+      { "source": "He remembered the address just in time." }
+    ]
+  },
+  {
+    "id": "trans_017",
+    "grammarFocus": "Futur antérieur (future perfect)",
+    "sentences": [
+      { "source": "By the time you arrive, I will have already cooked dinner." },
+      { "source": "She will have finished her degree by next June." },
+      { "source": "Once they will have signed the contract, we can start." },
+      { "source": "He will have lived in France for ten years by next spring." },
+      { "source": "Will you have read the report before the meeting tomorrow?" }
+    ]
+  },
+  {
+    "id": "trans_018",
+    "grammarFocus": "Plus-que-parfait (past perfect / pluperfect)",
+    "sentences": [
+      { "source": "She had already left when I arrived at the café." },
+      { "source": "He ate the cake that his mother had made the day before." },
+      { "source": "They had never visited Paris before that trip." },
+      { "source": "I realized I had forgotten my wallet at home." },
+      { "source": "We had barely sat down when the concert began." }
+    ]
+  },
+  {
+    "id": "trans_019",
+    "grammarFocus": "Pronoms y and en",
+    "sentences": [
+      { "source": "Do you go to the gym often? — Yes, I go there twice a week." },
+      { "source": "She has three brothers. — She has three of them." },
+      { "source": "Are you thinking about the trip? — Yes, I am thinking about it." },
+      { "source": "Do you want some bread? — No, thank you, I don't want any." },
+      { "source": "He has lived in Lyon for three years. — He has lived there for three years." }
+    ]
+  },
+  {
+    "id": "trans_020",
+    "grammarFocus": "Discours indirect (reported speech)",
+    "sentences": [
+      { "source": "He said, 'I am tired.' → He said that he was tired." },
+      { "source": "She told me, 'I will call you tomorrow.' → She told me she would call me the next day." },
+      { "source": "They asked, 'Where does she live?' → They asked where she lived." },
+      { "source": "The guide explained, 'The museum closes at six.' → The guide explained that the museum closed at six." },
+      { "source": "My friend said, 'I have never tried snails.' → My friend said he had never tried snails." }
+    ]
+  }
+]

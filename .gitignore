@@ -1,0 +1,14 @@
+# Never commit files that may contain your API key
+*.local
+*.env
+.env*
+config.local.js
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
