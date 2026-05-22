@@ -1,6 +1,6 @@
 # 🇫🇷 French Daily Practice — Chrome Extension
 
-A Manifest V3 Chrome extension that blocks your browser every day until you complete a short French writing task (DELF A2–B1 level). After you submit, it sends your work to Claude (Haiku) for AI feedback.
+A Manifest V3 Chrome extension that blocks your browser every day until you complete a short French writing task (DELF A2–B1 level). After you submit, it sends your work to Claude for AI feedback.
 
 ---
 
